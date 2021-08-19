@@ -1,0 +1,33 @@
+//// 
+// General-Use Code /////////////////////
+//// 
+
+// Magical code that removed the white bar from showing up on the right side of the screen on smaller screen sizes. Seems to be the "overflow-x: hidden;" that did it.
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/* prevents the text size in web kit and microsoft browsers from changing when phone orientation is changed. */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/* Makes sure all browsers implement the box-model in the same way. Makes sure padding is added to the inside of an element and margin to the outside. */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Set basic font-family/weight for the whole body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* Normal default font size. */
+    font-size: 16px;
+    font-weight: 300;
+}
+
+// end of General-Use Code ///////////////
