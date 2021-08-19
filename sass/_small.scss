@@ -2,6 +2,11 @@
 // General-Use Code /////////////////////
 //// 
 
+// Possibly helps make CSS Grid things work?
+* {
+    box-sizing: border-box;
+}
+
 // Magical code that removed the white bar from showing up on the right side of the screen on smaller screen sizes. Seems to be the "overflow-x: hidden;" that did it.
 html,body
 {
