@@ -37,9 +37,47 @@ body {
 
 // end of General-Use Code ///////////////
 
-
+// background color for nav and footer.
 nav, footer {
     background: $primaryWarmColor;
+}
+
+nav {
+    a {
+        color: white;
+        // Removes underline from nav items.
+        text-decoration: none;
+    }
+
+    // Removes dots from nav list items
+    li {
+        list-style-type: none;
+    }
+    li.active {
+        // Current page nav select color.
+        background-color: $secondaryWarmColor;
+    }
+    // Display current page nav button as darker (wayfinding)
+    a:hover {
+        background-color: rgba(0,0,0,0.2);
+    }
+    // Only display nav items if they have the open class.
+    ul.open {
+        display: block;
+    }
+    ul {
+        display: none;
+    }
+    button {
+        /* Removes the border and background of the button */
+        background: none;
+        border: none;
+    
+        color: rgb(255, 255, 255);
+        font-size: 2.4rem;
+        cursor: pointer;
+        padding: 0 30px 0 2vw;
+    }
 }
 
 main {

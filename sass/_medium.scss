@@ -1,0 +1,16 @@
+nav {
+    /* don't display the hamburger button if not phone-size. */
+    button {
+        display: none;
+    }
+    /* Make sure navigation displays */
+    ul {
+        display: block;
+    }
+    li {
+        /* Arrange items left to right. */
+        float: left;
+        /* 5 items, so 20% uses all the space. */
+        width: 20%;
+    }
+}
