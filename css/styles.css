@@ -368,6 +368,9 @@ main {
 
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
+  #mainGrid {
+    margin: 2em; }
+
   nav {
     /* don't display the hamburger button if not phone-size. */
     /* Make sure navigation displays */ }
@@ -383,13 +386,13 @@ main {
 /* end of media query */
 /* Common for large size- 1200px or 1024px */
 /* end of media query */
-body {
+#mainGrid {
   display: grid;
   grid: auto-flow min-content/1fr;
   grid-template-areas: "nav     "  "header  " "portrait"    "main    " "footer  "; }
 
 @media only screen and (min-width: 768px) {
-  body {
+  #mainGrid {
     grid-template-areas: "header portrait"  "nav    nav     " "main   main    "    "footer footer  "; } }
 /* end of media query */
 /* Defines what is assigned to each grid area. */
