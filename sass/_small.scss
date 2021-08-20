@@ -38,7 +38,17 @@ body {
 // end of General-Use Code ///////////////
 
 
+nav, footer {
+    background: $primaryWarmColor;
+}
 
-header, nav, main, footer {
-    background-color: $primaryCoolColor;   
+main {
+    background-color: $secondaryCoolColor;
+}
+
+// Portrait Image styles
+#portrait > img {
+    width: 300px;
+    height: auto;
+    margin: 1em;
 }

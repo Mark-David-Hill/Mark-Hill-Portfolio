@@ -333,8 +333,16 @@ body {
   font-size: 16px;
   font-weight: 300; }
 
-header, nav, main, footer {
-  background-color: #77CEFF; }
+nav, footer {
+  background: #FFAC60; }
+
+main {
+  background-color: #E1F6FF; }
+
+#portrait > img {
+  width: 300px;
+  height: auto;
+  margin: 1em; }
 
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 /* end of media query */
