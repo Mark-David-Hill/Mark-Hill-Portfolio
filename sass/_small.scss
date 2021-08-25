@@ -29,7 +29,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /* Set basic font-family/weight for the whole body */
 body {
-    font-family: 'Times New Roman', Times, sans-serif;
+    font-family: 'Chango', cursive;
+    // font-family: 'Times New Roman', Times, sans-serif;
     /* Normal default font size. */
     font-size: 16px;
     font-weight: 300;
@@ -84,9 +85,34 @@ main {
     background-color: $secondaryCoolColor;
 }
 
+h1, h2 {
+    // Remove bold
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+header h2 {
+    font-size: 13px;
+}
+
 // Portrait Image styles
 #portrait > img {
     width: 300px;
     height: auto;
-    margin: 1em;
+    // necessary for getting it to be centered
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+main h2 {
+    font-size: 48px;
+}
+
+// #mainGrid {
+    
+// }

@@ -328,7 +328,7 @@ html {
 
 /* Set basic font-family/weight for the whole body */
 body {
-  font-family: 'Times New Roman', Times, sans-serif;
+  font-family: 'Chango', cursive;
   /* Normal default font size. */
   font-size: 16px;
   font-weight: 300; }
@@ -361,10 +361,25 @@ nav button {
 main {
   background-color: #E1F6FF; }
 
+h1, h2 {
+  font-weight: normal;
+  text-align: center; }
+
+h1 {
+  font-size: 36px; }
+
+header h2 {
+  font-size: 13px; }
+
 #portrait > img {
   width: 300px;
   height: auto;
-  margin: 1em; }
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+main h2 {
+  font-size: 48px; }
 
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
