@@ -83,6 +83,7 @@ nav {
 
 main {
     background-color: $secondaryCoolColor;
+    padding: 0 1em 0 1em;
 }
 
 h1, h2 {
@@ -110,9 +111,21 @@ header h2 {
 }
 
 main h2 {
-    font-size: 48px;
+    font-size: 28px;
 }
 
-// #mainGrid {
+.project-card {
+    padding: 1em;
+    background-color: $secondaryWarmColor;
     
-// }
+    img {
+        width: 300px;
+        height: auto;
+    }
+
+    span {
+        background-color: $primaryCoolColor;
+        color: white;
+        font-size: 36px;
+    }
+}
