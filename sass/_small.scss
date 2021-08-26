@@ -102,12 +102,13 @@ header h2 {
 
 // Portrait Image styles
 #portrait > img {
-    width: 300px;
+    width: 200px;
     height: auto;
     // necessary for getting it to be centered
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0.5em auto 0.5em auto;
+    // margin-left: auto;
+    // margin-right: auto;
 }
 
 main h2 {
