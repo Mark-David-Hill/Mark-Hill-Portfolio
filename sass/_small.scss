@@ -114,18 +114,39 @@ main h2 {
     font-size: 28px;
 }
 
+p {
+    font-family: 'Cambo', serif;
+}
+
 .project-card {
     padding: 1em;
     background-color: $secondaryWarmColor;
+    margin-bottom: 2em;
+    max-width: 360px;
     
     img {
         width: 300px;
         height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    div {
+        margin-top: 1em;
     }
 
     span {
         background-color: $primaryCoolColor;
         color: white;
         font-size: 36px;
+        font-family: 'Cambo', serif;
+        padding: 0.2em;
+        width: 3em;
+        text-align: center;
     }
+}
+
+.flex-spacing {
+    display: flex;
+    justify-content: space-evenly;
 }

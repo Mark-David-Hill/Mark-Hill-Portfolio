@@ -382,16 +382,33 @@ header h2 {
 main h2 {
   font-size: 28px; }
 
+p {
+  font-family: 'Cambo', serif; }
+
 .project-card {
   padding: 1em;
-  background-color: #FFDBB1; }
+  background-color: #FFDBB1;
+  margin-bottom: 2em;
+  max-width: 360px; }
   .project-card img {
     width: 300px;
-    height: auto; }
+    height: auto;
+    display: block;
+    margin: auto; }
+  .project-card div {
+    margin-top: 1em; }
   .project-card span {
     background-color: #77CEFF;
     color: white;
-    font-size: 36px; }
+    font-size: 36px;
+    font-family: 'Cambo', serif;
+    padding: 0.2em;
+    width: 3em;
+    text-align: center; }
+
+.flex-spacing {
+  display: flex;
+  justify-content: space-evenly; }
 
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
