@@ -396,14 +396,17 @@ p {
     margin: auto; }
   .project-card div {
     margin-top: 1em; }
-  .project-card span {
+  .project-card a {
     background-color: #77CEFF;
     color: white;
     font-size: 36px;
     font-family: 'Cambo', serif;
     padding: 0.2em;
     width: 3em;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none; }
+  .project-card a:hover {
+    background-color: #468ab1; }
 
 .flex-spacing {
   display: flex;
