@@ -48,6 +48,9 @@ nav {
         color: white;
         // Removes underline from nav items.
         text-decoration: none;
+        display: block;
+        padding: .8rem 0;
+        text-align: center;
     }
 
     // Removes dots from nav list items
@@ -56,7 +59,7 @@ nav {
     }
     li.active {
         // Current page nav select color.
-        background-color: $secondaryWarmColor;
+        background-color: $primaryWarmColorDark;
     }
     // Display current page nav button as darker (wayfinding)
     a:hover {
@@ -68,6 +71,8 @@ nav {
     }
     ul {
         display: none;
+        margin: 0;
+        padding: 0;
     }
     button {
         /* Removes the border and background of the button */

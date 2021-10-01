@@ -338,17 +338,22 @@ nav, footer {
 
 nav a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  display: block;
+  padding: .8rem 0;
+  text-align: center; }
 nav li {
   list-style-type: none; }
 nav li.active {
-  background-color: #FFDBB1; }
+  background-color: #aa7748; }
 nav a:hover {
   background-color: rgba(0, 0, 0, 0.2); }
 nav ul.open {
   display: block; }
 nav ul {
-  display: none; }
+  display: none;
+  margin: 0;
+  padding: 0; }
 nav button {
   /* Removes the border and background of the button */
   background: none;
