@@ -9,12 +9,10 @@
                          "footer  ";
 }
 
-// Projects Grid Setup
 #projects {
-    display: grid;
-    grid: auto-flow min-content/1fr;
-    justify-content: center;
-    // grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
@@ -27,14 +25,6 @@
                             "main   main    "   
                             "footer footer  ";
     }
-
-    // Projects Grid Setup for medium screens
-    #projects {
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid: auto-flow max-content / repeat(12, 1fr);
-    gap: 1em;
-}
 
 } /* end of media query */
 
