@@ -1,7 +1,13 @@
 
 // Margin around the main grid
+*, html, body {
+    justify-content: center;
+}
+
 #mainGrid {
-    margin: 2em;
+    margin: 2em 8em;
+    max-width: 1200px;
+    justify-self: center;
 }
 
 // Nav Styles
@@ -23,5 +29,17 @@ nav {
 }
 
 #portrait > img {
-    width: 250px;
+    width: 200px;
+    // width: 50%;
+    margin-right: 2em;
+}
+
+header 
+{
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 20px;
+    }
 }

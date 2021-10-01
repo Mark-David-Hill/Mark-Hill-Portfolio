@@ -419,8 +419,13 @@ p {
 
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
+  *, html, body {
+    justify-content: center; }
+
   #mainGrid {
-    margin: 2em; }
+    margin: 2em 8em;
+    max-width: 1200px;
+    justify-self: center; }
 
   nav {
     /* don't display the hamburger button if not phone-size. */
@@ -436,7 +441,13 @@ p {
       width: 20%; }
 
   #portrait > img {
-    width: 250px; } }
+    width: 200px;
+    margin-right: 2em; }
+
+  header h1 {
+    font-size: 50px; }
+  header h2 {
+    font-size: 20px; } }
 /* end of media query */
 /* Common for large size- 1200px or 1024px */
 /* end of media query */
