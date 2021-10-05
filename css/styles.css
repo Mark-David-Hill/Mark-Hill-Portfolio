@@ -387,7 +387,8 @@ main h2 {
   font-size: 28px; }
 
 p {
-  font-family: 'Cambo', serif; }
+  font-family: 'Cambo', serif;
+  font-size: 24px; }
 
 .project-card {
   padding: 1em;
@@ -419,12 +420,8 @@ p {
 
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
-  *, html, body {
-    justify-content: center; }
-
   #mainGrid {
-    margin: 2em 8em;
-    max-width: 1200px;
+    margin: 2em 4em;
     justify-self: center; }
 
   nav {
@@ -450,6 +447,10 @@ p {
     font-size: 20px; } }
 /* end of media query */
 /* Common for large size- 1200px or 1024px */
+@media only screen and (min-width: 1200px) {
+  #mainGrid {
+    margin: 2em 10em;
+    max-width: 1200px; } }
 /* end of media query */
 #mainGrid {
   display: grid;

@@ -1,12 +1,7 @@
 
-// Margin around the main grid
-*, html, body {
-    justify-content: center;
-}
-
 #mainGrid {
-    margin: 2em 8em;
-    max-width: 1200px;
+    margin: 2em 4em;
+    // max-width: 1200px;
     justify-self: center;
 }
 
@@ -43,3 +38,7 @@ header
         font-size: 20px;
     }
 }
+
+// main {
+//     margin: 2em 0;
+// }
