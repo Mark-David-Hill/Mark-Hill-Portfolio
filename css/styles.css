@@ -333,41 +333,46 @@ body {
   font-size: 16px;
   font-weight: 300; }
 
-nav, footer {
+footer {
   background: #FFAC60; }
+  footer p {
+    color: white;
+    text-align: center; }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  padding: .8rem 0;
-  text-align: center; }
-nav li {
-  list-style-type: none; }
-nav li.active {
-  background-color: #aa7748; }
-nav a:hover {
-  background-color: rgba(0, 0, 0, 0.2); }
-nav ul.open {
-  display: block; }
-nav ul {
-  display: none;
-  margin: 0;
-  padding: 0; }
-nav button {
-  /* Removes the border and background of the button */
-  background: none;
-  border: none;
-  color: white;
-  font-size: 2.4rem;
-  cursor: pointer;
-  padding: 0 30px 0 2vw; }
+nav {
+  background: #FFAC60; }
+  nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: .8rem 0;
+    text-align: center; }
+  nav li {
+    list-style-type: none; }
+  nav li.active {
+    background-color: #aa7748; }
+  nav a:hover {
+    background-color: rgba(0, 0, 0, 0.2); }
+  nav ul.open {
+    display: block; }
+  nav ul {
+    display: none;
+    margin: 0;
+    padding: 0; }
+  nav button {
+    /* Removes the border and background of the button */
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw; }
 
 #mainSection {
   background-color: #E1F6FF;
   padding: 0 1em 0 1em;
   border-radius: 30px;
-  margin-bottom: 2em; }
+  margin-bottom: 1.5em; }
   #mainSection h2 {
     font-size: 28px; }
 

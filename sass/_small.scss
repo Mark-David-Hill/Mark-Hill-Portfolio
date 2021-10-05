@@ -38,14 +38,16 @@ body {
 
 // end of General-Use Code ///////////////
 
-// background color for nav and footer.
-nav, footer {
+footer {
     background: $primaryWarmColor;
-    // box-shadow: 1px 1px 3px black;
+    p {
+        color: white;
+        text-align: center;
+    }
 }
 
 nav {
-    
+    background: $primaryWarmColor;
     a {
         color: white;
         // Removes underline from nav items.
@@ -95,7 +97,7 @@ nav {
     h2 {
         font-size: 28px;
     }
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 h1, h2 {
