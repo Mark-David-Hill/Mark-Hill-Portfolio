@@ -41,9 +41,11 @@ body {
 // background color for nav and footer.
 nav, footer {
     background: $primaryWarmColor;
+    // box-shadow: 1px 1px 3px black;
 }
 
 nav {
+    
     a {
         color: white;
         // Removes underline from nav items.
@@ -86,9 +88,14 @@ nav {
     }
 }
 
-main {
+#mainSection {
     background-color: $secondaryCoolColor;
     padding: 0 1em 0 1em;
+    border-radius: 30px;
+    h2 {
+        font-size: 28px;
+    }
+    margin-bottom: 2em;
 }
 
 h1, h2 {
@@ -114,10 +121,6 @@ header h2 {
     margin: 0.5em auto 0.5em auto;
     // margin-left: auto;
     // margin-right: auto;
-}
-
-main h2 {
-    font-size: 28px;
 }
 
 p {

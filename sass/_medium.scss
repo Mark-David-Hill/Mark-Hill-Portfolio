@@ -5,6 +5,10 @@
     justify-self: center;
 }
 
+nav, footer {
+    box-shadow: 1px 1px 3px black;
+}
+
 // Nav Styles
 nav {
     /* don't display the hamburger button if not phone-size. */
@@ -21,6 +25,7 @@ nav {
         /* 5 items, so 20% uses all the space. */
         width: 20%;
     }
+    box-shadow: 5px, black;
 }
 
 #portrait > img {

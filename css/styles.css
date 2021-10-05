@@ -363,9 +363,13 @@ nav button {
   cursor: pointer;
   padding: 0 30px 0 2vw; }
 
-main {
+#mainSection {
   background-color: #E1F6FF;
-  padding: 0 1em 0 1em; }
+  padding: 0 1em 0 1em;
+  border-radius: 30px;
+  margin-bottom: 2em; }
+  #mainSection h2 {
+    font-size: 28px; }
 
 h1, h2 {
   font-weight: normal;
@@ -382,9 +386,6 @@ header h2 {
   height: auto;
   display: block;
   margin: 0.5em auto 0.5em auto; }
-
-main h2 {
-  font-size: 28px; }
 
 p {
   font-family: 'Cambo', serif;
@@ -424,9 +425,13 @@ p {
     margin: 2em 4em;
     justify-self: center; }
 
+  nav, footer {
+    box-shadow: 1px 1px 3px black; }
+
   nav {
     /* don't display the hamburger button if not phone-size. */
-    /* Make sure navigation displays */ }
+    /* Make sure navigation displays */
+    box-shadow: 5px, black; }
     nav button {
       display: none; }
     nav ul {
