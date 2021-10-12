@@ -15,7 +15,12 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    background-color: $backgroundColor;
 }
+
+// body {
+//     background-color: rgb(151, 209, 199);
+// }
 
 /* prevents the text size in web kit and microsoft browsers from changing when phone orientation is changed. */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
@@ -43,6 +48,7 @@ footer {
     p {
         color: white;
         text-align: center;
+        font-size: 1.2em;
     }
 }
 
@@ -61,6 +67,7 @@ nav {
     li {
         list-style-type: none;
     }
+    // Not currently being used
     li.active {
         // Current page nav select color.
         background-color: $primaryWarmColorDark;
@@ -162,6 +169,15 @@ p {
 
     a:hover {
         background-color: $primaryCoolColorDark;
+    }
+
+    h3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2em;
+    }
+
+    p {
+        font-family: 'Times New Roman', Times, serif;
     }
     
 }
