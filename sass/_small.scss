@@ -45,6 +45,8 @@ body {
 
 footer {
     background: $primaryWarmColor;
+    display: flex;
+    justify-content: space-evenly;
     p {
         color: white;
         text-align: center;
