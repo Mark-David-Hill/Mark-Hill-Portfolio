@@ -18,6 +18,11 @@ html,body
     background-color: $backgroundColor;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 // body {
 //     background-color: rgb(151, 209, 199);
 // }
@@ -143,7 +148,7 @@ p {
     padding: 1em;
     background-color: $secondaryWarmColor;
     margin-bottom: 2em;
-    max-width: 360px;
+    max-width: 332px;
     
     img {
         width: 300px;
@@ -180,6 +185,20 @@ p {
 
     p {
         font-family: 'Times New Roman', Times, serif;
+        // text-align: center;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    ul li{
+        list-style-type: none;
+        background-color: $secondaryCoolColor;
+        width: 30%;
+        text-align: center;
+        padding: 0.3em;
     }
     
 }
