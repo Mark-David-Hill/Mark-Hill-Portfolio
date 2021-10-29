@@ -2,6 +2,7 @@
     {
         "name": "cpaSite",
         "image": "./images/cpaSite.png",
+        "imageAlt": "Jeff Hill CPA Site",
         "description":"Responsive business website for Jeff Hill CPA, LLC",
         "tags": [
             "HTML", "CSS", "SCSS"
@@ -11,10 +12,11 @@
     },
     {
         "name": "portfolioSite",
-        "image": "./images/placeHolder.png",
+        "image": "./images/portfolioSite.png",
+        "imageAlt": "Mark Hill Portfolio",
         "description":"The Portfolio site you're on right now",
         "tags": [
-            "HTML", "CSS", "GRID", "FLEXBOX"
+            "HTML", "CSS", "GRID", "JavaScript"
         ],
         "site":"https://www.jeffhillcpa.com/",
         "gitHub": "https://github.com/Mark-David-Hill/Jeff-Hill-CPA-Website"

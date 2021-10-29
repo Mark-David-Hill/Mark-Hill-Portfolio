@@ -435,13 +435,16 @@ p {
     font-family: 'Times New Roman', Times, serif; }
   .project-card ul {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    flex-wrap: wrap; }
   .project-card ul li {
     list-style-type: none;
     background-color: #E1F6FF;
-    width: 30%;
     text-align: center;
-    padding: 0.3em; }
+    padding: 0.3em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    margin-bottom: 0.5em; }
 
 .flex-spacing {
   display: flex;
