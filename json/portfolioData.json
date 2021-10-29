@@ -16,7 +16,7 @@
         "imageAlt": "Mark Hill Portfolio",
         "description":"The Portfolio site you're on right now",
         "tags": [
-            "HTML", "CSS", "GRID", "JavaScript"
+            "HTML", "CSS", "CSS Grid", "JavaScript"
         ],
         "site":"https://www.jeffhillcpa.com/",
         "gitHub": "https://github.com/Mark-David-Hill/Jeff-Hill-CPA-Website"
