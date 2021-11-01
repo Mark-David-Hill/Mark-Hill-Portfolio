@@ -316,8 +316,7 @@ html, body {
   overflow-x: hidden; }
 
 body {
-  background-color: #3f3f3f;
-  background-image: url("images/stars.jpg");
+  background-color: #777777;
   background-repeat: repeat; }
 
 #mainGrid {
@@ -446,7 +445,7 @@ p {
     flex-wrap: wrap; }
   .project-card ul li {
     list-style-type: none;
-    background-color: #E1F6FF;
+    background-color: #FFAC60;
     text-align: center;
     padding: 0.3em;
     margin-left: 0.2em;
